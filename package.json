@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/brunojensen/phaser-game",
   "scripts": {
     "build": "webpack",
-    "start": "webpack --watch & live-server --port=8085"
+    "start": "webpack --watch & live-server --port=8085",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "live-server": "^1.1.0",
     "phaser": "^3.55.2",
     "ts-loader": "^9.4.2",
